@@ -1,0 +1,105 @@
+{
+  "status": "true",
+  "message": "List Of Order By User",
+  "data": [
+    {
+      "id": 1,
+      "order_id": "order_I2SWbVFyKrlVpW",
+      "order_amount": "70000",
+      "payment_status": "created",
+      "created_at": "2021-09-27T10:38:15.000000Z",
+      "updated_at": "2021-09-27T10:38:15.000000Z",
+      "series_id": null,
+      "brand_details": {
+        "id": 4,
+        "name": "Apple",
+        "logo": "Brand/logo/wUtgcKuhqk9NBe2FZuX0Oe6T5wXlod.png",
+        "status": "active",
+        "created_at": "2021-07-31T11:25:49.000000Z",
+        "updated_at": "2021-07-31T11:25:49.000000Z"
+      },
+      "model_details": {
+        "id": 12,
+        "name": "model-2",
+        "color": "gray",
+        "image": "ModelImage/0svd7bjwn0YyIhzZFAT6AayeQKVjmBl2ANVTTvkK.png",
+        "varient_ids": "18,",
+        "series_id": 3,
+        "status": "active",
+        "created_at": "2021-09-27T04:51:14.000000Z",
+        "updated_at": "2021-09-27T04:51:14.000000Z",
+        "brand_id": 4,
+        "brand_details": {
+          "id": 4,
+          "name": "Apple",
+          "logo": "Brand/logo/wUtgcKuhqk9NBe2FZuX0Oe6T5wXlod.png",
+          "status": "active",
+          "created_at": "2021-07-31T11:25:49.000000Z",
+          "updated_at": "2021-07-31T11:25:49.000000Z"
+        },
+        "varient_details": [
+          {
+            "id": 18,
+            "name": "8 GB + 128 GB",
+            "color": "Black",
+            "screen_size": "5.9 Inch",
+            "ram_size": "8 GB",
+            "storage_size": "128 GB",
+            "status": "active",
+            "price": "20000",
+            "created_at": "2021-09-21T11:13:41.000000Z",
+            "updated_at": "2021-09-21T11:13:41.000000Z"
+          }
+        ]
+      },
+      "policy_details": {
+        "id": 4,
+        "policy_name": "TestPolicy2",
+        "policy_image": "Policy/VHXUsmcEvNrEEAkmFWLiUZESolLQLs4PlYSOgvc6.png,",
+        "policy_price": "70000",
+        "duration": "4month",
+        "description": "any desc",
+        "term_condition": "any terms",
+        "varient_ids": "",
+        "status": "active",
+        "created_at": "2021-09-27T07:30:54.000000Z",
+        "updated_at": "2021-09-27T07:30:54.000000Z",
+        "series_id": 3,
+        "model_id": 12,
+        "brand_id": 4,
+        "varient_details": [],
+        "model_details": {
+          "id": 12,
+          "name": "model-2",
+          "color": "gray",
+          "image": "ModelImage/0svd7bjwn0YyIhzZFAT6AayeQKVjmBl2ANVTTvkK.png",
+          "varient_ids": "18,",
+          "series_id": 3,
+          "status": "active",
+          "created_at": "2021-09-27T04:51:14.000000Z",
+          "updated_at": "2021-09-27T04:51:14.000000Z",
+          "brand_id": 4
+        },
+        "brand_details": null
+      },
+      "user_details": {
+        "id": 16,
+        "name": "hhah",
+        "email": "abdulahadaab4646@gmail.com",
+        "email_verified_at": null,
+        "current_team_id": null,
+        "profile_photo_path": null,
+        "role": "user",
+        "status": "active",
+        "activity": "offline",
+        "personal_token": "Ai3vEhqaGT7dECpeztgXAjN3uaWLMTcD9VzkqaLk",
+        "phone_number": 8888743341,
+        "country_code": "+91",
+        "created_at": "2021-09-22T06:03:38.000000Z",
+        "updated_at": "2021-09-22T06:03:38.000000Z",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=hhah&color=7F9CF5&background=EBF4FF"
+      },
+      "payment_details": null
+    }
+  ]
+}
